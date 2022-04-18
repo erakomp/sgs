@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Services</title>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.1.1.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/superfish.js"></script>
+    <script src="js/jquery.equalheights.js"></script>
+    <script src="js/jquery.mobilemenu.js"></script>
+    <script src="js/tmStickUp.js"></script>
+    <script src="js/jquery.ui.totop.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script>
+        $(window).load(function() {
+            $().UItoTop({
+                easingType: 'easeOutQuart'
+            });
+            $('#stuck_container').tmStickUp({});
+        });
+    </script>
+</head>
+
+<body>
+    <!--==============================
+              header
+=================================-->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="grid_12 rel">
+                    <h1>
+                        <a href="index.html">
+                            <img src="images/logos.png" alt="Logo alt">
+                        </a>
+                    </h1>
+                </div>
+            </div>
+        </div>
+        <section id="stuck_container">
+            <!--==============================
+              Stuck menu
+  =================================-->
+            <div class="container">
+                <div class="row">
+                    <div class="grid_12 ">
+                        <div class="navigation ">
+                            <nav>
+                                <ul class="sf-menu">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li class="current"><a href="services.html">Services</a></li>
+                                    <li><a href="contacts.html">Contacts</a></li>
+                                </ul>
+                            </nav>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!--=====================
+          Content
+======================-->
+    <section id="content">
+        <div class="ic">More Website Templates @ TemplateMonster.com - July 28, 2014!</div>
+        <div class="container px-4">
+            <div class="row gx-5">
+                <h3>Featured Services</h3>
+                <div class="col">
+                    <div class="text2 color1"><a href="#">ISO COMPLIANT</a></div>We are ISO and OSAS certified since 2004 and has won numerous awards and accolades over the years.
+                </div>
+                <div class="col">
+                    <div class="text2 color1"><a href="#">MANAGED IT SERVICES</a></div>Streamline your IT services to increase productivity and efficiency within the workplace with our specialized solutions catered to safe cost up to 60%
+                </div>
+                <div class="col">
+                    <div class="text2 color1"><a href="#">SUPPORT CONSULTING</a></div>We understand that not everyone is adept in IT. We are here for you to be consulted and provide solution from the simplest troubleshooting to the most complex configuration. Our trusted service
+                    centre had been appointed by international brands to be the authorized service point in Indonesia
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
